@@ -1,7 +1,7 @@
 import React from "react";
-import ServicesBox from "./ServicesBox";
+import ProjectBox from "./ProjectBox.jsx";
 
-const Services = () => {
+const Project = () => {
   return (
     <section className="bg-secondary dark:bg-gray-900 dark:text-white py-10">
       <div className="container flex flex-col items-center">
@@ -9,15 +9,15 @@ const Services = () => {
           Projects
         </h1>
         <p className="text-slate-500 text-center md:w-[50%] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-          dolor sit amet. Id,erroradipisicing elit. Id, error.
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet. Id,erroradipisicing elit. Id, error. */}
         </p>
       </div>
       <div>
-        <ServicesBox />
+        <ProjectBox />
       </div>
     </section>
   );
 };
 
-export default Services;
+export default Project;

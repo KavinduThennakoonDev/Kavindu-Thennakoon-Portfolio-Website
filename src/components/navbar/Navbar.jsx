@@ -11,8 +11,8 @@ const navMenus = [
     link: "/#about",
   },
   {
-    name: "Services",
-    link: ".#services",
+    name: "Projects",
+    link: ".#projects",
   },
   {
     name: "Contact",
