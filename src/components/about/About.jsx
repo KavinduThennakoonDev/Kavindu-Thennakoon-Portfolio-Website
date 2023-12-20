@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white dark:bg-slate-800 dark:text-white">
+    <section id="about" className="bg-white dark:bg-stone-950 dark:text-white">
       <div className="container md:w-[70%] sm:py-16 py-10">
         <div className="grid items-center gap-4 grid-cols-1 sm:grid-cols-2">
           <div className=" font-bold relative">
@@ -13,7 +13,7 @@ const About = () => {
               About me
             </h1>
           </div>
-          <div className="text-slate-500 dark:text-white">
+          <div className="text-slate-500 dark:text-white  text-gray-950 ">
             <p>
               Dedicated IT undergraduate with a passion for problem-solving and
               teamwork. Hardworking and committed to academic success, with a
@@ -32,7 +32,7 @@ const About = () => {
             <div className="">
               <a
                 href="../../assets/Fake Resume.pdf"
-                className="primary-btn my-6 mr-6 inline-block"
+                className="primary-btn my-6 mr-6 inline-block bg-yellow-500"
                 download
               >
                 Download Resume

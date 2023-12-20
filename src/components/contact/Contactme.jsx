@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="contact"
-      className="bg-white dark:bg-slate-800 dark:text-white"
+      className="bg-secondary dark:bg-stone-400 dark:text-white"
     >
       <div className="container md:w-[70%] sm:py-16 py-10">
         <div className="grid items-center gap-4 grid-cols-1 sm:grid-cols-2">
@@ -24,7 +24,7 @@ const About = () => {
                   First Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 dark:text-white border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  class="appearance-none block w-full bg-zinc-50 dark:text-white border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   type="text"
                   placeholder="Kavindu"
@@ -38,7 +38,7 @@ const About = () => {
                   Last Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  class="appearance-none block w-full bg-zinc-50 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-last-name"
                   type="text"
                   placeholder="Thennakoon"
@@ -54,7 +54,7 @@ const About = () => {
                   E-Mail
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 dark:text-white border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  class="appearance-none block w-full bg-zinc-50 dark:text-white border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-password"
                   type="email"
                   placeholder="kavinduthennakoon222@gmail.com"
@@ -70,7 +70,7 @@ const About = () => {
                   Description
                 </label>
                 <textarea
-                  class="appearance-none block w-full bg-gray-200 dark:text-white border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  class="appearance-none block w-full bg-zinc-50 dark:text-white border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-Description"
                   type="text"
                   placeholder="Description"
@@ -88,7 +88,7 @@ const About = () => {
               <a
                 href="tel:+123456789"
                 title="Call +123456789 "
-                className="primary-btn my-6 mr-6 inline-block"
+                className="primary-btn my-6 mr-6 inline-block bg-yellow-500"
               >
                 Contact
               </a>

@@ -3,7 +3,7 @@ import ProjectBox from "./ProjectBox.jsx";
 
 const Project = () => {
   return (
-    <section className="bg-secondary dark:bg-gray-900 dark:text-white py-10">
+    <section className="bg-white dark:bg-stone-950 dark:text-white py-10">
       <div className="container flex flex-col items-center">
         <h1 className="inline-block text-3xl text-center font-bold mb-3 border-b-2 border-primary pb-1">
           Projects
