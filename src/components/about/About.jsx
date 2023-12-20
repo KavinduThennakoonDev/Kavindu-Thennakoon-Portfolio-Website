@@ -13,7 +13,7 @@ const About = () => {
               About me
             </h1>
           </div>
-          <div className="text-slate-500">
+          <div className="text-slate-500 dark:text-white">
             <p>
               Dedicated IT undergraduate with a passion for problem-solving and
               teamwork. Hardworking and committed to academic success, with a

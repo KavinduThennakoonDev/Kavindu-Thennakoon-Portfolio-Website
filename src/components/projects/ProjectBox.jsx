@@ -13,7 +13,10 @@ const Project = [
     image: "https://picsum.photos/200/300",
     icon: <HiMiniComputerDesktop className="text-4xl" />,
     bgColor: "bg-gray-500",
+    repoUrl:
+      "https://github.com/it21232336/Green-Leaf-Info-Management-System.git", // Replace with your actual repository URL
   },
+
   {
     name: "SriLanka eParticipation Portal",
     description:
@@ -21,6 +24,7 @@ const Project = [
     image: "https://picsum.photos/200/301",
     icon: <HiMiniComputerDesktop className="text-4xl" />,
     bgColor: "bg-gray-500",
+    repoUrl: "https://github.com/it21232336/SriLanka-eParticipation-Portal.git",
   },
   {
     name: "Kavindu Thennakoon Portfolio Website ",
@@ -29,6 +33,8 @@ const Project = [
     image: "https://picsum.photos/200/302",
     icon: <HiMiniComputerDesktop className="text-4xl" />,
     bgColor: "bg-gray-500",
+    repoUrl:
+      "https://github.com/it21232336/Green-Leaf-Info-Management-System.git",
   },
   // {
   //   name: "Security",
@@ -43,17 +49,24 @@ const projectBox = () => {
   return (
     <section id="projects" className="my-10 container">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {Project.map(({ name, description, image, icon, bgColor }) => (
-          <div
+        {Project.map(({ name, description, image, icon, bgColor, repoUrl }) => (
+          <a
             key={name}
-            className={` ${bgColor} rounded-xl  bg-blue-500/70 text-white  bg-[url('${image}')] bg-cover bg-no-repeat bg-center bg-blend-overlay`}
+            href={repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
           >
-            <div className="p-3 md:p-16 backdrop-blur-sm space-y-3 rounded-xl">
-              {icon}
-              <h1 className="text-2xl font-bold">{name}</h1>
-              <p>{description}</p>
+            <div
+              className={` ${bgColor} rounded-xl bg-blue-500/70 text-white bg-[url('${image}')] bg-cover bg-no-repeat bg-center bg-blend-overlay`}
+            >
+              <div className="p-3 md:p-16 backdrop-blur-sm space-y-3 rounded-xl">
+                {icon}
+                <h1 className="text-2xl font-bold">{name}</h1>
+                <p>{description}</p>
+              </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>

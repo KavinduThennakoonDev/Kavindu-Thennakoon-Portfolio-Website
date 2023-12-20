@@ -19,12 +19,12 @@ const Hero = () => {
                 Aspiring IT innovator | SLIIT undergraduate | Passionate about
                 tech, programming, and data | Seeking collaborative projects.
               </p>
-              <a
+              {/* <a
                 href="mailto:michle@test.com"
                 className="inline-block primary-btn !my-3"
               >
                 Hire me
-              </a>
+              </a> */}
             </div>
           </div>
           {/* image section */}

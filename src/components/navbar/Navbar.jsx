@@ -16,7 +16,7 @@ const navMenus = [
   },
   {
     name: "Contact",
-    link: "#",
+    link: "#contact",
   },
 ];
 
