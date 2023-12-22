@@ -27,10 +27,10 @@ const Project = [
     repoUrl: "https://github.com/it21232336/SriLanka-eParticipation-Portal.git",
   },
   {
-    name: "Kavindu Thennakoon Portfolio Website ",
+    name: "Kavindu Thennakoon Portfolio Website (Mobile Responsive) ",
     description:
       "Explore the code behind my IT Portfolio Website! As an aspiring IT student, this repository reflects my skills and projects. Dive into the details, and feel free to connect or provide feedback.",
-    image: "https://picsum.photos/200/302",
+    image: { green },
     icon: <HiMiniComputerDesktop className="text-4xl" />,
     bgColor: "bg-stone-500",
     repoUrl:

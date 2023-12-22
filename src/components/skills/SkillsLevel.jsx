@@ -8,10 +8,10 @@ const SkillsLevel = ({ skillsName, percentage }) => {
           <p className="text-xl font-bold">{skillsName}</p>
           <p className="text-sm text-right">{percentage}</p>
         </div>
-        <div className="w-full bg-slate-200 h-2 rounded-full">
+        <div className="w-full bg-stone-500 h-3 rounded-full">
           <div
             style={{ width: `${percentage}` }}
-            className={`h-2 bg-yellow-300 rounded-full`}
+            className={`h-3 bg-yellow-300 rounded-full`}
           ></div>
         </div>
       </div>
