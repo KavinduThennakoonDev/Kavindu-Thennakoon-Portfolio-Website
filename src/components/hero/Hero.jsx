@@ -15,15 +15,15 @@ const Hero = () => {
                 alt="another-person"
               />
             </div>
-            <div className="space-y-2 grid justify-items-center sm:justify-items-start mb-20">
-              <p className="uppercase ">Hello</p>
+            <div className="space-y-2 grid justify-items-center sm:justify-items-start">
+              <p className="uppercase  text-lg font-medium ">Hello </p>
               <p className="text-4xl md:text-6xl font-bold text-black/80 dark:text-neutral-950">
                 I'm Kavindu Thennakoon
               </p>
-              <p className="text-3xl text-black-700 dark:text-neutral-600">
-                Full stack Developer
+              <p className="text-3xl text-black-700 font-medium dark:text-neutral-600">
+                Fullstack Developer
               </p>
-              <p className="text-black/75 dark:text-white/70 text-center sm:text-left text-stone-950">
+              <p className="text-black/75 font-medium text-lg dark:text-neutral-950 text-center sm:text-left text-stone-950">
                 Aspiring IT innovator | SLIIT undergraduate | Passionate about
                 tech, programming, and data | Seeking collaborative projects.
               </p>
@@ -42,7 +42,7 @@ const Hero = () => {
           <div>
             <img
               src={kavindunew}
-              className="w-full md:max-w-lg mx-auto  backdrop-blur-sm "
+              className="w-full md:max-w-lg mx-auto  backdrop-blur-sm mt-10 "
               alt="person"
             />
           </div>
