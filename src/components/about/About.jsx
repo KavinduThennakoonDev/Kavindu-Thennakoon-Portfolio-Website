@@ -1,8 +1,17 @@
 import React from "react";
+import kavindupdf from "../../assets/kavindu.pdf";
+import download from "downloadjs";
 
 const About = () => {
+  const handleDownload = () => {
+    // const resumeUrl = [kavindupdf];
+
+    // Trigger the download using downloadjs
+    download(kavindupdf);
+    console.log(kavindupdf);
+  };
   return (
-    <section id="about" className="bg-white dark:bg-slate-800 dark:text-white">
+    <section id="about" className="bg-white dark:bg-stone-950 dark:text-white">
       <div className="container md:w-[70%] sm:py-16 py-10">
         <div className="grid items-center gap-4 grid-cols-1 sm:grid-cols-2">
           <div className=" font-bold relative">
@@ -13,7 +22,7 @@ const About = () => {
               About me
             </h1>
           </div>
-          <div className="text-slate-500">
+          <div className="text-slate-500 dark:text-white  text-zinc-950 font-semibold text-lg ">
             <p>
               Dedicated IT undergraduate with a passion for problem-solving and
               teamwork. Hardworking and committed to academic success, with a
@@ -30,20 +39,12 @@ const About = () => {
               adipisci velit
             </p> */}
             <div className="">
-              <a
-                href="../../assets/Fake Resume.pdf"
-                className="primary-btn my-6 mr-6 inline-block"
-                download
+              <button
+                className="primary-btn my-6 mr-6 inline-block bg-yellow-500"
+                onClick={handleDownload}
               >
                 Download Resume
-              </a>
-              {/* <a
-                href="tel:+123456789"
-                title="Call +123456789 "
-                className="outline-btn my-6"
-              >
-                Contact
-              </a> */}
+              </button>
             </div>
           </div>
         </div>
