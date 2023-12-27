@@ -1,5 +1,5 @@
 import React from "react";
-import kavindunew from "../../assets/kavindunew.png";
+import kavindunew from "../../assets/tenex.png";
 import tenexlogo from "../../assets/tenexlogo.png";
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
               </p>
               <p className="text-black/75 font-medium text-lg dark:text-neutral-950 text-center sm:text-left text-stone-950">
                 Aspiring IT innovator | SLIIT undergraduate | Passionate about
-                tech, programming, and data | Seeking collaborative projects.
+                tech, programming and data | Seeking collaborative projects.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Hero = () => {
           <div>
             <img
               src={kavindunew}
-              className="w-full md:max-w-lg mx-auto  backdrop-blur-sm mt-10 "
+              className="w-full md:max-w-lg mx-auto  backdrop-blur-sm  "
               alt="person"
             />
           </div>
